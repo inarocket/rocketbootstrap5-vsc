@@ -1,0 +1,35 @@
+{
+    "name": "rocketbootstrap5",
+    "displayName": "RocketBootstrap5",
+    "description": "Bootstrap 5 code snippets.",
+    "version": "1.0.0",
+    "publisher": "inarocket",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/inarocket/rocketbootstrap5-vsc"
+    },
+    "icon": "icon.png",
+    "engines": {
+        "vscode": "^1.40.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "keywords": [
+        "bootstrap",
+        "bootstrap 5",
+        "bootstrap snippets",
+        "css",
+        "html",
+        "vscode",
+        "extension"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "html",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}
